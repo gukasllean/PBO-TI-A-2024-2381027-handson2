@@ -32,7 +32,11 @@ public class SwitchStatement {
             case 7:
                 namaHari = "Sabtu";
                 break;
+            default:
+                System.out.println("Masukkan nomor antara 1 - 7");
+                System.exit(0);
         }
+
         System.out.println("Hari : " + namaHari);
-    }
+      }
     }

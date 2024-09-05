@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class soal1 {
     public static void main(String[] args) {
-        int[] bilangan = new int[3];
+        int[] bilangan = new int[2];
         Scanner input = new Scanner(System.in);
 
         System.out.println("Masukkan bilangan pertama : ");
